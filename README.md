@@ -1,1 +1,0 @@
-# Olimpic-Medal-Predicter
