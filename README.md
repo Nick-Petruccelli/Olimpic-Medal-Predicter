@@ -10,7 +10,7 @@
   - Jupiter Notebooks and Spyder IDE
   - Libraries: Pandas, MatplotLib, Seaborn, Scikit Learn, Numpy.
   - Corelation Heatmap article: https://medium.com/@szabo.bibor/how-to-create-a-seaborn-correlation-heatmap-in-python-834c0686b88e 
-  - Data from kaggle
+  - Data from kaggle: https://www.kaggle.com/datasets/the-guardian/olympic-games
 ## Data Cleaning
   - Concatanated Summer and Winter datasets and mearged the country dictionary data.
   - Created dummy variables for the medal that the athelete won.
