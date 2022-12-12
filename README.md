@@ -47,5 +47,5 @@ For the model I wanted to build somthing that would be able to predict whether o
   
   **Random Forest**: 
   
-  Lastly i pikled the model that preformed best so that i could use it if i productinized the model.
+  Lastly i pickled the model that preformed best so that i could use it if i productinized the model.
   
