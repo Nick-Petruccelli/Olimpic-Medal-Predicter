@@ -1,15 +1,16 @@
 # Olimpic-Medal-Predicter
 ## Project Intro
   - The main goals of this project were to gain experience conducting exploratory analisis on a dataset as well as using scikit learn to create machine learning models.
-  - I then cleaned the dataset and created some new features from the provided data to help with exploratory analisis and model bulding.
-  - For exploratory analisis I was mainly interested in seeing what were the common factors of countrys that performed well in the olimpics.
   - For the model I created a knn and random forest classifier and optimized them with a gridsearch to attempt to predict whether someone would win a gold medal or not.
-
+  - Cleaned the dataset and created some new features from the provided data to help with exploratory analisis and model bulding.
+  - For exploratory analisis I was mainly interested in seeing what were the common factors of countrys that performed well in the olimpics.
+  
 ## Resources Used
   -  Python 3.9
   - Jupiter Notebooks and Spyder IDE
   - Libraries: Pandas, MatplotLib, Seaborn, Scikit Learn, Numpy.
   - Corelation Heatmap article: https://medium.com/@szabo.bibor/how-to-create-a-seaborn-correlation-heatmap-in-python-834c0686b88e 
+  - Data from kaggle
 ## Data Cleaning
   - Concatanated Summer and Winter datasets and mearged the country dictionary data.
   - Created dummy variables for the medal that the athelete won.
