@@ -47,5 +47,5 @@ For the model I wanted to build somthing that would be able to predict whether o
   
   **Random Forest**: 
   
-  Lastly i pickled the model that preformed best so that i could use it if i productinized the model.
-  
+  ### Model Flaws
+  Since my data was only from people who has placed on the podium at the olimpics my model does not predict the whether or not an olimpic athelete will win gold, it predicts whether or not an olimpic athelete will win gold given they placed on the podium. This obviously limits the aplication of this model in the real world greatly.
