@@ -1,7 +1,7 @@
 # Olimpic-Medal-Predicter
 ## Project Intro
+  - For the model I created a knn and random forest classifier and optimized them with a gridsearch to attempt to predict whether someone would win a gold medal or not. The knn model performed best with a 79% accurecy score.
   - The main goals of this project were to gain experience conducting exploratory analisis on a dataset as well as using scikit learn to create machine learning models.
-  - For the model I created a knn and random forest classifier and optimized them with a gridsearch to attempt to predict whether someone would win a gold medal or not.
   - Cleaned the dataset and created some new features from the provided data to help with exploratory analisis and model bulding.
   - For exploratory analisis I was mainly interested in seeing what were the common factors of countrys that performed well in the olimpics.
   
@@ -50,9 +50,9 @@ For the model I wanted to build somthing that would be able to predict whether o
   ### Model Results
   I used accuracy as my metric for the models.
   
-  **knn**: 
+  **knn**: 79% accurecy
   
-  **Random Forest**: 
+  **Random Forest**: 78% accurecy
   
   ### Model Flaws
   Since my data was only from people who has placed on the podium at the olimpics my model does not predict the whether or not an olimpic athelete will win gold, it predicts whether or not an olimpic athelete will win gold given they placed on the podium. This obviously limits the aplication of this model in the real world greatly.
