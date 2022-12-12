@@ -22,21 +22,21 @@
   - Second when we looked at he corelation heat map we could see that Previos_Medals_Won was very highly corelated with the other previos medal variables as intuition would assume, this means that we should experiment with leaving it out of our Gold medal clasification model in attempts to avoid multicolliniarity.
   - Lastly, all of the previos medal one histograhms showed that there is a very small sample size of people that have been able to maintin podium placing abillity over the years it it would probalbly be vary interesting to look a those few examples to see if we can find any similaritys between them.
 
-![Corelation HeatMap](pictures/Corelation_hm.PNG)
+![Corelation HeatMap](Pictures/Corelation_hm.PNG)
 
 **Within the catigorical variables there was a lot of interesting findings but these were the ones i found most notable.**
   - Aquatic sports are the most prevelent sports at the olimpics followed closly by Athetics so if your a country and your goal is to come home with the most medals i think it is a reasonable stratagy to invest the most amount of money into those sports.
   - The USA has one around twice as manny gold medals as the nex higest country.
   - Throughout the time frame this data was collected there have been around twice as manny mens medals awarded as wommens medals.
 
-![Top 20 Countries](pictures/Top20_Countrys_bar.PNG)     ![Top 20 Sports](pictures/Top20_Sport_bar.PNG)
+![Top 20 Countries](Pictures/Top20_Countrys_bar.PNG)     ![Top 20 Sports](Pictures/Top20_Sport_bar.PNG)
 
 **I then created a couple of piviot tabels that i was ablue to use to draw the following conclutions.**
   - The USA has won the most medals and has also won the most medals in aquatics, this is very interesting because it     shows either that the USA knows that aquatics are the most frequent sport in the olimpics and have therefor invested    more resorses into that programe. Or since they have one the most medals overall they have probalby won the most medals in alot of sports, so it would be worth looking at this a proportion if I was going to expolore any further.
   - Population was not have as big a factor in the number of gold medals a country had won as I had thought it would.
   - GDP per Capita was not have as big a factor in the number of gold medals a country had won as I had thought it would.
 
-![Gold by Country and Population](pictures/Gold_by_Country_and_Pop_piv.PNG)      ![Gold by Country and Sport](pictures/Gold_by_Country_and_Sport_piv.PNG)
+![Gold by Country and Population](Pictures/Gold_by_Country_and_Pop_piv.PNG)      ![Gold by Country and Sport](Pictures/Gold_by_Country_and_Sport_piv.PNG)
 
 ## Building The Model
 For the model I wanted to build somthing that would be able to predict whether or not an athelete would win gold.
